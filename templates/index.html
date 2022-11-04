@@ -57,13 +57,21 @@
           <div class="hero-full-wrapper">
             <div class="text-content">
               <h1>Hello,<br>
-                <span id="typed-strings">
-                  <span>I'm Adesegun Adesola ADEBOYE</span>
-                  <span>Backend Web Developer (Python)</span>
-                  <span>Working as Technical Director at Truelevellers Services</span>
-                </span>
-                <span id="typed"></span>
-              </h1>
+                <span class="auto-type"></span></h1>
+                <h2>
+
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+                <script>
+                  var typed = new Typed(".auto-type", {
+                    strings: ["I'm Adesegun Adesola ADEBOYE", "Backend Web Developer (Python)", "Working as Technical Director at Truelevellers Services..."],
+                    typeSpeed: 150,
+                    backSpeed: 150,
+                    loop: true
+                  })
+
+                </script>
+              </h2>
             </div>
           </div>
         </div>
@@ -78,7 +86,5 @@
   });
 </script>
 
-
 <script type="text/javascript" src="./static/main.70a66962.js"></script></body>
-
 </html>
